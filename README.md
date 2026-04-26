@@ -1,18 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Run and Deploy Your IoT Air Pollution Monitoring Website
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
+This project is a front-end web application built using HTML, CSS, and vanilla JavaScript. It does not require any external APIs or AI services.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+### Prerequisites:
 
+* Node.js installed (optional, only if using dev server)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Steps:
+
+1. Install dependencies (if package.json exists):
+   npm install
+
+2. Start the development server:
+   npm run dev
+
+3. Open your browser and go to:
+   http://localhost:5173 (or the port shown in terminal)
+
+## Notes:
+
+* No API keys are required.
+* All data displayed is static or simulated.
+* You can later connect real IoT sensor data using APIs like MQTT, Firebase, or REST endpoints.
