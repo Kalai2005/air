@@ -17,7 +17,7 @@ This project is a front-end web application built using HTML, CSS, and vanilla J
    npm run dev
 
 3. Open your browser and go to:
-  http://localhost:3000/(or the port shown in terminal)
+  http://localhost:3000/ (or the port shown in terminal)
 
 ## Notes:
 
